@@ -7,7 +7,8 @@ group = "me.user"
 version = "1.0-SNAPSHOT"
 
 repositories {
-    mavenCentral()
+    maven("https://mirrors.tencent.com/nexus/repository/maven-public")
+    // mavenCentral()
 }
 
 kotlin {
